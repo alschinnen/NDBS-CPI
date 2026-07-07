@@ -1,5 +1,0 @@
-#Store metainfo properties
-#Tue Jul 07 12:42:08 UTC 2026
-description=Requests business partner data from SAP S/4HANA based on a Timer, and creates or updates vendor and creates vendor group
-source=SAPS4HANA
-target=SAPConcur

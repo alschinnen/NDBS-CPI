@@ -1,5 +1,0 @@
-#Store metainfo properties
-#Tue Jul 07 12:43:06 UTC 2026
-description=Push Exchange Rate data from SAP S/4 HANA system to Workday System
-source=SAPS4HANA
-target=Workday

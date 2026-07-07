@@ -1,5 +1,0 @@
-#Store metainfo properties
-#Tue Jul 07 12:42:34 UTC 2026
-description=All newly created Cost Centers from SAP S/4HANA to Workday
-source=SAPS4HANA
-target=Workday

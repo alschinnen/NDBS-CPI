@@ -1,5 +1,0 @@
-#Store metainfo properties
-#Tue Jul 07 12:43:23 UTC 2026
-description=Replicate Employee data from SAP S/4HANA HCM via a custom BAPI to SAP Concur to an SFTP Server
-source=SAPS4HANA
-target=SAPConcur
