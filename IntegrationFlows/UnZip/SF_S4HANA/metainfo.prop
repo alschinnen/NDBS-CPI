@@ -1,0 +1,5 @@
+#Store metainfo properties
+#Tue Jul 07 12:41:29 UTC 2026
+description=Successfactor -> S/4HANA
+source=SAPSuccessFactorsEmployeeCentral
+target=SAPS4HANA
