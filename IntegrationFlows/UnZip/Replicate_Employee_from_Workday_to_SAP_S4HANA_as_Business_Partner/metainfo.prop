@@ -1,0 +1,5 @@
+#Store metainfo properties
+#Tue Jul 07 12:41:33 UTC 2026
+description=Query all changed employee data from Workday and replicate the data to SAP S/4HANA as Business Partner.
+source=Workday
+target=SAPS4HANA
