@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="VendorType">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" name="Vendor">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element nillable="false" minOccurs="0" maxOccurs="1" name="Address1">
+								<xs:simpleType>
+									<xs:restriction base="xs:string" xmlns="">
+										<xs:maxLength value="100"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element nillable="false" minOccurs="0" maxOccurs="1" name="Address2">
+								<xs:simpleType>
+									<xs:restriction base="xs:string" xmlns="">
+										<xs:maxLength value="100"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element nillable="true" minOccurs="0" maxOccurs="1" name="AddressCode">
+								<xs:simpleType>
+									<xs:restriction base="xs:string" xmlns="">
+										<xs:maxLength value="81"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element nillable="true" minOccurs="0" maxOccurs="1" name="Approved">
+								<xs:simpleType>
+									<xs:restriction base="xs:string" xmlns="">
+										<xs:maxLength value="81"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element nillable="true" minOccurs="0" maxOccurs="1" name="City">
+								<xs:simpleType>
+									<xs:restriction base="xs:string" xmlns="">
+										<xs:maxLength value="81"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element nillable="true" minOccurs="0" maxOccurs="1" name="CountryCode">
+								<xs:simpleType>
+									<xs:restriction base="xs:string" xmlns="">
+										<xs:maxLength value="81"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element nillable="true" minOccurs="0" maxOccurs="1" name="CurrencyCode">
+								<xs:simpleType>
+									<xs:restriction base="xs:string" xmlns="">
+										<xs:maxLength value="81"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element nillable="true" minOccurs="0" maxOccurs="1" name="PostalCode">
+								<xs:simpleType>
+									<xs:restriction base="xs:string" xmlns="">
+										<xs:maxLength value="81"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element nillable="true" minOccurs="0" maxOccurs="1" name="State">
+								<xs:simpleType>
+									<xs:restriction base="xs:string" xmlns="">
+										<xs:maxLength value="81"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element nillable="true" minOccurs="0" maxOccurs="1" name="TaxID">
+								<xs:simpleType>
+									<xs:restriction base="xs:string" xmlns="">
+										<xs:maxLength value="81"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element nillable="true" minOccurs="0" maxOccurs="1" name="VendorCode">
+								<xs:simpleType>
+									<xs:restriction base="xs:string" xmlns="">
+										<xs:maxLength value="81"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element nillable="true" minOccurs="0" maxOccurs="1" name="VendorFormName">
+								<xs:simpleType>
+									<xs:restriction base="xs:string" xmlns="">
+										<xs:maxLength value="81"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element nillable="true" minOccurs="0" maxOccurs="1" name="VendorName">
+								<xs:simpleType>
+									<xs:restriction base="xs:string" xmlns="">
+										<xs:maxLength value="81"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element nillable="true" minOccurs="0" maxOccurs="1" name="Custom1">
+								<xs:simpleType>
+									<xs:restriction base="xs:string" xmlns="">
+										<xs:maxLength value="48"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element nillable="true" minOccurs="0" maxOccurs="1" name="Custom2">
+								<xs:simpleType>
+									<xs:restriction base="xs:string" xmlns="">
+										<xs:maxLength value="48"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element nillable="true" minOccurs="0" maxOccurs="1" name="Custom3">
+								<xs:simpleType>
+									<xs:restriction base="xs:string" xmlns="">
+										<xs:maxLength value="48"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
