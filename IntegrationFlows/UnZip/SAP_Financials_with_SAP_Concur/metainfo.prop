@@ -1,0 +1,6 @@
+#Store metainfo properties
+#Tue Jul 07 12:42:58 UTC 2026
+SAP-MarkedSAP2SAP=SAP_TO_SAP_INTEGRATION
+description=This is a pass-through scenario. It should be used if you want to connect your SAP system with your SAP Concur solutions via Cloud Platform Integration.
+source=SAPERP,SAPS4HANACloud,SAPS4HANA
+target=SAP Concur
