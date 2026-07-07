@@ -1,0 +1,5 @@
+#Store metainfo properties
+#Tue Jul 07 12:41:20 UTC 2026
+description=Replication of Exchange rates from SAP S/4HANA OnPremise to SAP Concur
+source=SAPS4HANAFinance
+target=SAPConcur
