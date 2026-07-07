@@ -1,0 +1,24 @@
+#Tue Jul 07 12:42:08 UTC 2026
+BusinessPartnerGrouping=&lt;BusinessPartnerGroup1&gt;,&lt;BusinessPartnerGroup1&gt;
+CheckPayload=true or false
+CompanyCode=&lt;CompanyCode1&gt;,&lt;CompanyCode2&gt;
+ConcurAPIAddress=http\://<concurapihost>
+Credential\ Name=<credential>
+InitialLoad=true or false
+MailServer=<smtpserver>\:<port>
+Mail_Authentication=loginEncrypted
+Mail_CopyList=<Copy List>
+Mail_Credentials=<Credential Name>
+Mail_LoacationID=<CC Location ID>
+Mail_ProxyType=sapcc
+Parallelism=10
+Receiver=receiver1@address.com,receiver2@address.com
+S/4VirtualHost=http(s)\://<S4virtualhost>\:<port>
+S4HANA_Authentication=Basic
+S4HANA_LocationID=<CC Location ID>
+S4HANA_PrivateKeyAlias=<Private Key>
+S4HANA_ProxyType=sapcc
+SAP\ Client=&lt;S/4HANA client number&gt;
+Scheduler=<row><cell>dayValue</cell><cell></cell></row><row><cell>monthValue</cell><cell></cell></row><row><cell>yearValue</cell><cell></cell></row><row><cell>dateType</cell><cell>DAILY</cell></row><row><cell>secondValue</cell><cell>0</cell></row><row><cell>minutesValue</cell><cell></cell></row><row><cell>hourValue</cell><cell></cell></row><row><cell>toInterval</cell><cell>24</cell></row><row><cell>fromInterval</cell><cell>0</cell></row><row><cell>OnEveryHour</cell><cell>1</cell></row><row><cell>timeType</cell><cell>TIME_HOUR_INTERVAL</cell></row><row><cell>timeZone</cell><cell>( UTC 0\:00 ) Greenwich Mean Time(Etc/GMT)</cell></row><row><cell>throwExceptionOnExpiry</cell><cell>true</cell></row><row><cell>triggerType</cell><cell>cron</cell></row><row><cell>noOfSchedules</cell><cell>1</cell></row><row><cell>schedule1</cell><cell>0+0+0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23+?+*+*+*&amp;trigger.timeZone\=Etc/GMT</cell></row>
+Sender=sender@address.com
+SplitterGroup=100
