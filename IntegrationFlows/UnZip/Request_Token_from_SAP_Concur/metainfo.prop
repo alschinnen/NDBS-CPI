@@ -1,0 +1,5 @@
+#Store metainfo properties
+#Tue Jul 07 12:42:51 UTC 2026
+description=Request session token from SAP Concur API on a scheduled basis.
+source=SAPCloudPlatformIntegration
+target=SAPConcur
