@@ -1,0 +1,12 @@
+#Tue Jul 07 12:43:23 UTC 2026
+Address=<SFTP Server Host Adress>
+Directory=<Inbound Directory>
+LAST_SUCCESS_DATE_DEFAULT_DATE=&lt;Format YYYYMMDD&gt;
+PGP_User=&lt;PGP Encryptopn User ID&gt;
+PrivateKeyAlias=
+RFC_DESTINATION=<SAP S4 RFC Destination>
+SFTP_Credential_Name=
+SFTP_FileName=&lt;FileName of SFTP Server&gt;
+SFTP_Hanndling=Override
+Timer=<row><cell>dateType</cell><cell></cell></row><row><cell>timeType</cell><cell></cell></row><row><cell>dayValue</cell><cell></cell></row><row><cell>monthValue</cell><cell></cell></row><row><cell>yearValue</cell><cell></cell></row><row><cell>onWeekly</cell><cell></cell></row><row><cell>onMonthly</cell><cell></cell></row><row><cell>OnEveryMinute</cell><cell></cell></row><row><cell>fromInterval</cell><cell></cell></row><row><cell>toInterval</cell><cell></cell></row><row><cell>timeZone</cell><cell>( UTC 0\:00 ) Greenwich Mean Time(Etc/GMT)</cell></row><row><cell>secondValue</cell><cell>0</cell></row><row><cell>minutesValue</cell><cell></cell></row><row><cell>hourValue</cell><cell></cell></row><row><cell>triggerType</cell><cell>simple</cell></row><row><cell>noOfSchedules</cell><cell>1</cell></row><row><cell>schedule1</cell><cell>fireNow\=true</cell></row>
+User\ Name=
