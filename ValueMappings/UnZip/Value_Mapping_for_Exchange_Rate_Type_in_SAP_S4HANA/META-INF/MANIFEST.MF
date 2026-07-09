@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: Value_Mapping_for_Exchange_Rate_Type_in_SAP_S4HAN
+ A; singleton:=true
+Bundle-ManifestVersion: 2
+Origin-Bundle-SymbolicName: Value_Mapping_for_Exchange_Rate_Type_in_SA
+ P_S4HANA
+SAP-ArtifactTrait: 
+Origin-Bundle-Version: 1.0.0
+Import-Package: com.sap.xi.mapping.camel.valmap
+Origin-Bundle-Name: Value Mapping for Exchange Rate Type in SAP S4HANA
+Bundle-Name: Value Mapping for Exchange Rate Type in SAP S4HANA
+Bundle-Version: 1.0.0
+Bundle-Activator: com.sap.xi.mapping.camel.valmap.ValueMappingActivato
+ r
+SAP-NodeType: IFLMAP
+Origin-ModifiedDate: 1625224612196
+SAP-BundleType: ValueMapping
+Import-Service: 
+
